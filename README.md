@@ -14,3 +14,6 @@ Steps
 7. Change default github branch to 'newmaster'
 8. Rename branch 'master' to 'legacy_master' both locally and on github  https://gist.github.com/lttlrck/9628955
 9. Rename branch 'newmaster' to 'master' both locally and on github
+
+all other edits will continue on new master branch.
+this one will not be used after commiting this edit.
