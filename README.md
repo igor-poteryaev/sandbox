@@ -34,9 +34,11 @@ git push
 #
 git branch -m master legacy_master
 git push origin :master
+git co legacy_master
 git push --set-upstream origin legacy_master
 
 #
 git branch -m newmaster master
 git push origin :newmaster
+git co master
 git push --set-upstream origin master
