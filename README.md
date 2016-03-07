@@ -28,7 +28,7 @@ edit README.md
 git add .
 git commit -m "one commit on master"
 git push
-got co newmaster
+git co newmaster
 git push
 
 #
