@@ -19,6 +19,7 @@ Steps
 commands 
 # preparations
 
+```
 git branch newmain
 edit README.md
 git add .
@@ -30,15 +31,20 @@ git commit -m "one commit on main"
 git push
 git co newmain
 git push
+```
 
 #
+```
 git branch -m main legacy_main
 git push origin :main
 git co legacy_main
 git push --set-upstream origin legacy_main
+```
 
 #
+```
 git branch -m newmain main
 git push origin :newmain
 git co main
 git push --set-upstream origin main
+```
